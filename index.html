@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoraji Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/Logo.png" alt="Yoraji" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Fixed layout: split hero image and text -->
+            <div class="header-content">
+                <div class="header-text">
+                    <h1>Hi, I'm <span>Youssef Raji</span><br>from Morocco</h1>
+                    <a href="path/to/your/cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="hero-image">
+                    <picture>
+                        <!-- <source srcset="img/hero.webp" type="image/webp"> -->
+                        <img src="img/hero.png" alt="Youssef Raji Hero Image" class="styled-hero-img">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/yoraji.png" alt="Yoraji" class="profile-image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p><h3>I'm a passionate web developer with a focus on creating dynamic and responsive web applications that provide a great user experience. I have a strong foundation in HTML, CSS, and JavaScript, and I'm always eager to learn new technologies and improve my skills.</h3></p>
+
+                    <div class="tab-titles">
+                        <p class="tab-title active-tab" onclick="opentab('overview')">Overview</p>
+                        <p class="tab-title" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-title" onclick="opentab('projects')">Projects</p>
+                    </div>
+
+                    <div class="tab-contents active-tab-content" id="overview">
+                        <ul>
+                            <li><span>Web Dev</span><br>Web developing and Software Engineering</li>
+                            <li><span>Software</span><br>Building Android App</li>
+                            <li><span>DevOps</span><br>DevOps practices and tools</li>
+                            <li><span>Cloud and System Integration</span><br>Cloud solutions and system integration</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>HTML & CSS</span><br>Web layout and styling</li>
+                            <li><span>C & C++ & Assembly</span><br>Low-level programming and system understanding</li>
+                            <li><span>JavaScript & Java</span><br>Dynamic web development and Android applications</li>
+                            <li><span>React</span><br>Building interactive user interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>2023 - 2024</span><br>Problem Solving and Building strong and solid foundations in IT</li>
+                            <li><span>2024 - 2025</span><br>1337 Coding School</li>
+                            <li><span>2025 - 2026</span><br>Internship at </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web/App Development</h2>
+                    <p>I specialize in building responsive and dynamic web and mobile applications using modern frameworks and technologies to deliver seamless user experiences.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-cloud"></i>
+                    <h2>DevOps & Cloud Management</h2>
+                    <p>I offer expertise in setting up CI/CD pipelines, automating deployments, and managing cloud infrastructure to ensure efficient and scalable operations.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-paint-brush"></i>
+                    <h2>Web/App Design</h2>
+                    <p>I create intuitive and visually appealing user interfaces and experiences, focusing on user-centered design principles and modern aesthetics.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/work-1.png"> 
+                </div>
+                <div class="work">
+                    <img src="img/work-2.png"> 
+                </div>
+                <div class="work">
+                    <img src="img/work-3.png"> 
+                </div>
+            </div>
+        </div>
+    </div> -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> rajiy8299@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> +121601291143</p>
+                <div class="social-icons">
+                    <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:rajiy8299@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                <a href="path/to/your/cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2025 Yoraji. Made with <i class="fas fa-heart"></i> by You.</p>
+        </div>
+    </div>
+</div>
+    <div id="footer">
+        <div class="container">
+            <p>&copy; 2025 Yoraji. All rights reserved.</p>
+        </div>
+    </div>
+<!-- ---------------- contact ---------------- -->
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-title");
+        var tabcontents = document.getElementsByClassName("tab-contents"); // Corrected variable name
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-tab"); // Changed class name for clarity
+            }
+
+            for (tabcontent of tabcontents) { // Corrected variable name
+                tabcontent.classList.remove("active-tab-content"); // Changed class name for clarity
+            }
+
+            event.currentTarget.classList.add("active-tab");
+            document.getElementById(tabname).classList.add("active-tab-content");
+        }
+    </script>
+</body>
+</html>
